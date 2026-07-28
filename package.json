@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node api.js && next dev",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
     "lint": "eslint .",
     "test": "npm run lint && npm run build",
     "test:unit": "vitest run",
@@ -19,7 +19,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.7.0",
-    "next": "16.1.6",
+    "next": "^16.2.12",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
