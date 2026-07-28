@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "main",
+    "origin",
+    "uiux/account-switcher-quicksettings",
+    "uiux/receipt-print-stylesheet"
+  ],
+  "parent": {
+    "main": null,
+    "origin": "main",
+    "uiux/account-switcher-quicksettings": "main",
+    "uiux/receipt-print-stylesheet": "main"
+  },
+  "order": [
+    "main",
+    "origin",
+    "uiux/account-switcher-quicksettings",
+    "uiux/receipt-print-stylesheet"
+  ]
+}
